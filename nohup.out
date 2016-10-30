@@ -1,0 +1,468 @@
+{ sendNotificationToAll: [Function] }
+
+/home/galavi_informacion/servidorBoxo/node_modules/express/lib/router/route.js:162
+        throw new Error(msg);
+              ^
+Error: Route.post() requires callback functions but got a [object Undefined]
+    at /home/galavi_informacion/servidorBoxo/node_modules/express/lib/router/route.js:162:15
+    at Array.forEach (native)
+    at Route.(anonymous function) [as post] (/home/galavi_informacion/servidorBoxo/node_modules/express/lib/router/route.js:158:15)
+    at Function.app.(anonymous function) [as post] (/home/galavi_informacion/servidorBoxo/node_modules/express/lib/application.js:417:19)
+    at Object.<anonymous> (/home/galavi_informacion/servidorBoxo/server.js:75:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:906:3
+{ sendNotificationToAll: [Function] }
+
+/home/galavi_informacion/servidorBoxo/node_modules/express/lib/router/route.js:162
+        throw new Error(msg);
+              ^
+Error: Route.post() requires callback functions but got a [object Undefined]
+    at /home/galavi_informacion/servidorBoxo/node_modules/express/lib/router/route.js:162:15
+    at Array.forEach (native)
+    at Route.(anonymous function) [as post] (/home/galavi_informacion/servidorBoxo/node_modules/express/lib/router/route.js:158:15)
+    at Function.app.(anonymous function) [as post] (/home/galavi_informacion/servidorBoxo/node_modules/express/lib/application.js:417:19)
+    at Object.<anonymous> (/home/galavi_informacion/servidorBoxo/server.js:75:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:906:3
+{ sendNotificationToAll: [Function] }
+App listening on port 8080
+New socket abierto!
+Tue, 21 Jun 2016 03:37:09 GMT express deprecated res.send(status): Use res.status(status).end() instead at controllers/controllerUser.js:184:11
+[0mPOST /boxo/logout [32m200 [0m22.357 ms - 2[0m
+[0mPOST /auth/login [32m200 [0m11.460 ms - 184[0m
+[0mPOST /boxo/userAccount [32m200 [0m8.271 ms - 15756[0m
+[0mPOST /boxo/logout [32m200 [0m3.436 ms - 2[0m
+{ sendNotificationToAll: [Function] }
+App listening on port 8080
+New socket abierto!
+[0mPOST /auth/login [32m200 [0m25.442 ms - 184[0m
+[0mPOST /boxo/userAccount [32m200 [0m6.292 ms - 15777[0m
+5760353b14ff9b91279f8e64
+null
+Tue, 21 Jun 2016 03:41:53 GMT express deprecated res.send(status): Use res.status(status).end() instead at controllers/controllerUser.js:186:12
+[0mPOST /boxo/logout [32m200 [0m9.568 ms - 2[0m
+{ sendNotificationToAll: [Function] }
+App listening on port 8080
+New socket abierto!
+New socket abierto!
+[0mPOST /auth/login [32m200 [0m22.132 ms - 184[0m
+[0mPOST /boxo/userAccount [32m200 [0m6.429 ms - 14354[0m
+[0mPOST /boxo/getCalifications [32m200 [0m3.979 ms - 2[0m
+[ { dbB_usercalifiq: 576162e79ca3f95b3bbb3237,
+    dbB_datetime: '15/6/2016 | 9 - 24 - 39',
+    dbB_points: '5',
+    dbB_packageId: '576164609ca3f95b3bbb323a',
+    dbB_userToCalifiq: '5760348814ff9b91279f8e63',
+    _id: 576165289ca3f95b3bbb323d,
+    __v: 0 },
+  { dbB_usercalifiq: 576162e79ca3f95b3bbb3237,
+    dbB_datetime: '15/6/2016 | 13 - 56 - 36',
+    dbB_points: '2',
+    dbB_comments: 'Buen servicio',
+    dbB_packageId: '576164609ca3f95b3bbb323a',
+    dbB_userToCalifiq: '5760348814ff9b91279f8e63',
+    _id: 5761a4e49ca3f95b3bbb3247,
+    __v: 0 } ]
+[0mPOST /boxo/bringInfo [32m200 [0m7.677 ms - 50769[0m
+Tue, 21 Jun 2016 04:03:45 GMT express deprecated res.send(status): Use res.status(status).end() instead at controllers/controllerUser.js:184:11
+[0mPOST /boxo/logout [32m200 [0m7.481 ms - 2[0m
+[0mPOST /auth/login [32m200 [0m3.674 ms - 184[0m
+[0mPOST /boxo/userAccount [32m200 [0m3.233 ms - 15777[0m
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+{ sendNotificationToAll: [Function] }
+App listening on port 8080
+New socket abierto!
+New socket abierto!
+[0mPOST /boxo/logout [31m500 [0m16.784 ms - 2071[0m
+CastError: Cast to string failed for value "undefined" at path "dbB_tokenDevice"
+    at SchemaString.cast (/home/galavi_informacion/servidorBoxo/node_modules/mongoose/lib/schema/string.js:303:9)
+    at SchemaString.castForQuery (/home/galavi_informacion/servidorBoxo/node_modules/mongoose/lib/schema/string.js:353:17)
+    at Query._castUpdateVal (/home/galavi_informacion/servidorBoxo/node_modules/mongoose/lib/query.js:2075:17)
+    at Query._walkUpdatePath (/home/galavi_informacion/servidorBoxo/node_modules/mongoose/lib/query.js:2024:25)
+    at Query._castUpdate (/home/galavi_informacion/servidorBoxo/node_modules/mongoose/lib/query.js:1908:23)
+    at Query.update (/home/galavi_informacion/servidorBoxo/node_modules/mongoose/lib/query.js:1760:22)
+    at Function.update (/home/galavi_informacion/servidorBoxo/node_modules/mongoose/lib/model.js:1637:13)
+    at exports.logout (/home/galavi_informacion/servidorBoxo/controllers/controllerUser.js:186:18)
+    at Layer.handle [as handle_request] (/home/galavi_informacion/servidorBoxo/node_modules/express/lib/router/layer.js:76:5)
+    at next (/home/galavi_informacion/servidorBoxo/node_modules/express/lib/router/route.js:100:13)
+    at Route.dispatch (/home/galavi_informacion/servidorBoxo/node_modules/express/lib/router/route.js:81:3)
+    at Layer.handle [as handle_request] (/home/galavi_informacion/servidorBoxo/node_modules/express/lib/router/layer.js:76:5)
+    at /home/galavi_informacion/servidorBoxo/node_modules/express/lib/router/index.js:227:24
+    at Function.proto.process_params (/home/galavi_informacion/servidorBoxo/node_modules/express/lib/router/index.js:305:12)
+    at /home/galavi_informacion/servidorBoxo/node_modules/express/lib/router/index.js:221:12
+    at Function.match_layer (/home/galavi_informacion/servidorBoxo/node_modules/express/lib/router/index.js:288:3)
+[0mPOST /auth/login [32m200 [0m11.664 ms - 184[0m
+[0mPOST /boxo/userAccount [32m200 [0m3.453 ms - 15777[0m
+{ sendNotificationToAll: [Function] }
+App listening on port 8080
+New socket abierto!
+New socket abierto!
+{ sendNotificationToAll: [Function] }
+App listening on port 8080
+New socket abierto!
+New socket abierto!
+[0mPOST /boxo/showDirections [32m200 [0m23.264 ms - 612[0m
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m2.042 ms - 43[0m
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+New socket abierto!
+desconectado!
+desconectado!
+New socket abierto!
+New socket abierto!
+desconectado!
+desconectado!
+New socket abierto!
+New socket abierto!
+desconectado!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m1.417 ms - 43[0m
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+New socket abierto!
+desconectado!
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.774 ms - 43[0m
+[0mGET http://t3.proxy-checks.com/favicon.ico [33m404 [0m0.358 ms - 50[0m
+[0mPOST http://t3.proxy-checks.com/favicon.ico [33m404 [0m0.615 ms - 51[0m
+[0mGET http://104.156.57.169/favicon.ico [33m404 [0m0.559 ms - 45[0m
+[0mPOST http://t10.proxy-checks.com/favicon.ico [33m404 [0m0.610 ms - 52[0m
+[0mGET http://t9.proxy-checks.com/favicon.ico [33m404 [0m0.313 ms - 50[0m
+[0mPOST http://t9.proxy-checks.com/favicon.ico [33m404 [0m0.317 ms - 51[0m
+[0mGET http://185.8.60.115/favicon.ico [33m404 [0m0.332 ms - 43[0m
+[0mPOST http://t9.proxy-checks.com/favicon.ico [33m404 [0m0.310 ms - 51[0m
+[0mGET /hndUnblock.cgi [33m404 [0m0.458 ms - 27[0m
+[0mGET /tmUnblock.cgi [33m404 [0m0.611 ms - 26[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.303 ms - 43[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.308 ms - 43[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.304 ms - 43[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.359 ms - 43[0m
+[0mGET http://www.google.com/reader/about/ [33m404 [0m0.291 ms - 47[0m
+[0mGET /manager/html [33m404 [0m0.290 ms - 25[0m
+[0mGET /manager/html [33m404 [0m0.299 ms - 25[0m
+[0mGET /manager/html [33m404 [0m0.305 ms - 25[0m
+[0mGET /manager/html [33m404 [0m0.315 ms - 25[0m
+[0mGET /manager/html [33m404 [0m0.309 ms - 25[0m
+[0mGET http://www.google.com/reader/about/ [33m404 [0m0.316 ms - 47[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.312 ms - 43[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.460 ms - 43[0m
+[0mGET http://www.baidu.com/cache/global/img/gs.gif [33m404 [0m0.273 ms - 56[0m
+New socket abierto!
+[ { dbB_usercalifiq: 576162e79ca3f95b3bbb3237,
+    dbB_datetime: '15/6/2016 | 9 - 24 - 39',
+    dbB_points: '5',
+    dbB_packageId: '576164609ca3f95b3bbb323a',
+    dbB_userToCalifiq: '5760348814ff9b91279f8e63',
+    _id: 576165289ca3f95b3bbb323d,
+    __v: 0 },
+  { dbB_usercalifiq: 576162e79ca3f95b3bbb3237,
+    dbB_datetime: '15/6/2016 | 13 - 56 - 36',
+    dbB_points: '2',
+    dbB_comments: 'Buen servicio',
+    dbB_packageId: '576164609ca3f95b3bbb323a',
+    dbB_userToCalifiq: '5760348814ff9b91279f8e63',
+    _id: 5761a4e49ca3f95b3bbb3247,
+    __v: 0 } ]
+[0mPOST /boxo/getCalifications [32m200 [0m9.400 ms - 576[0m
+[0mPOST /boxo/bringInfo [32m200 [0m14.113 ms - 50445[0m
+[0mPOST /boxo/showDirections [32m200 [0m3.098 ms - 612[0m
+[0mPOST /boxo/getCalifications [32m200 [0m4.108 ms - 576[0m
+[ { dbB_usercalifiq: 576162e79ca3f95b3bbb3237,
+    dbB_datetime: '15/6/2016 | 9 - 24 - 39',
+    dbB_points: '5',
+    dbB_packageId: '576164609ca3f95b3bbb323a',
+    dbB_userToCalifiq: '5760348814ff9b91279f8e63',
+    _id: 576165289ca3f95b3bbb323d,
+    __v: 0 },
+  { dbB_usercalifiq: 576162e79ca3f95b3bbb3237,
+    dbB_datetime: '15/6/2016 | 13 - 56 - 36',
+    dbB_points: '2',
+    dbB_comments: 'Buen servicio',
+    dbB_packageId: '576164609ca3f95b3bbb323a',
+    dbB_userToCalifiq: '5760348814ff9b91279f8e63',
+    _id: 5761a4e49ca3f95b3bbb3247,
+    __v: 0 } ]
+[0mPOST /boxo/bringInfo [32m200 [0m4.287 ms - 50445[0m
+[ { dbB_usercalifiq: 576162e79ca3f95b3bbb3237,
+    dbB_datetime: '15/6/2016 | 9 - 24 - 39',
+    dbB_points: '5',
+    dbB_packageId: '576164609ca3f95b3bbb323a',
+    dbB_userToCalifiq: '5760348814ff9b91279f8e63',
+    _id: 576165289ca3f95b3bbb323d,
+    __v: 0 },
+  { dbB_usercalifiq: 576162e79ca3f95b3bbb3237,
+    dbB_datetime: '15/6/2016 | 13 - 56 - 36',
+    dbB_points: '2',
+    dbB_comments: 'Buen servicio',
+    dbB_packageId: '576164609ca3f95b3bbb323a',
+    dbB_userToCalifiq: '5760348814ff9b91279f8e63',
+    _id: 5761a4e49ca3f95b3bbb3247,
+    __v: 0 } ]
+[0mPOST /boxo/getCalifications [32m200 [0m10.986 ms - 576[0m
+[0mPOST /boxo/bringInfo [32m200 [0m6.912 ms - 50445[0m
+[0mPOST /boxo/deliveriesUser [32m200 [0m4.107 ms - 658[0m
+[0mPOST /boxo/deliveriesUser [32m200 [0m2.551 ms - 658[0m
+[0mPOST /boxo/getCalifications [32m200 [0m2.616 ms - 576[0m
+[ { dbB_usercalifiq: 576162e79ca3f95b3bbb3237,
+    dbB_datetime: '15/6/2016 | 9 - 24 - 39',
+    dbB_points: '5',
+    dbB_packageId: '576164609ca3f95b3bbb323a',
+    dbB_userToCalifiq: '5760348814ff9b91279f8e63',
+    _id: 576165289ca3f95b3bbb323d,
+    __v: 0 },
+  { dbB_usercalifiq: 576162e79ca3f95b3bbb3237,
+    dbB_datetime: '15/6/2016 | 13 - 56 - 36',
+    dbB_points: '2',
+    dbB_comments: 'Buen servicio',
+    dbB_packageId: '576164609ca3f95b3bbb323a',
+    dbB_userToCalifiq: '5760348814ff9b91279f8e63',
+    _id: 5761a4e49ca3f95b3bbb3247,
+    __v: 0 } ]
+[0mPOST /boxo/bringInfo [32m200 [0m23.169 ms - 50445[0m
+desconectado!
+[0mGET /manager/html [33m404 [0m0.420 ms - 25[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.303 ms - 43[0m
+[0mGET /manager/html [33m404 [0m0.278 ms - 25[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.803 ms - 43[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.289 ms - 43[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.591 ms - 43[0m
+[0mGET http://www.google.com/reader/about/ [33m404 [0m0.300 ms - 47[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.267 ms - 43[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.627 ms - 43[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.280 ms - 43[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.362 ms - 43[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.299 ms - 43[0m
+[0mGET /manager/html [33m404 [0m0.295 ms - 25[0m
+[0mGET /console/script [33m404 [0m0.284 ms - 27[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.291 ms - 43[0m
+[0mGET /manager/html [33m404 [0m0.504 ms - 25[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.318 ms - 43[0m
+[0mGET http://x.clixtraff.online/check_content [33m404 [0m0.277 ms - 51[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.341 ms - 43[0m
+[0mGET http://www.google.com/reader/about/ [33m404 [0m0.472 ms - 47[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.303 ms - 43[0m
+[0mGET http://www.baidu.com/cache/global/img/gs.gif [33m404 [0m0.314 ms - 56[0m
+[0mGET /manager/html [33m404 [0m0.308 ms - 25[0m
+[0mGET http://dhg.pisz.pl/httptest.php [33m404 [0m0.284 ms - 43[0m
+[0mGET /manager/html [33m404 [0m0.352 ms - 25[0m
+[0mPOST /boxo/ [33m404 [0m0.500 ms - 19[0m
+[0mPOST /auth/login [33m404 [0m6.005 ms - 40[0m
+[0mPOST /auth/login/ [33m404 [0m7.771 ms - 20[0m
+[0mGET /auth/login/ [33m404 [0m0.319 ms - 24[0m
+[0mGET /favicon.ico [33m404 [0m0.404 ms - 24[0m
+[0mPOST /auth/login/ [33m404 [0m2.079 ms - 20[0m
+New socket abierto!
+[0mPOST /auth/login [33m404 [0m2.003 ms - 20[0m
+[0mPOST /auth/login [32m200 [0m5.799 ms - 184[0m
+[0mPOST /boxo/userAccount [32m200 [0m3.011 ms - 14354[0m
+[0mPOST /boxo/getCalifications [32m200 [0m3.528 ms - 576[0m
+[ { dbB_usercalifiq: 576162e79ca3f95b3bbb3237,
+    dbB_datetime: '15/6/2016 | 9 - 24 - 39',
+    dbB_points: '5',
+    dbB_packageId: '576164609ca3f95b3bbb323a',
+    dbB_userToCalifiq: '5760348814ff9b91279f8e63',
+    _id: 576165289ca3f95b3bbb323d,
+    __v: 0 },
+  { dbB_usercalifiq: 576162e79ca3f95b3bbb3237,
+    dbB_datetime: '15/6/2016 | 13 - 56 - 36',
+    dbB_points: '2',
+    dbB_comments: 'Buen servicio',
+    dbB_packageId: '576164609ca3f95b3bbb323a',
+    dbB_userToCalifiq: '5760348814ff9b91279f8e63',
+    _id: 5761a4e49ca3f95b3bbb3247,
+    __v: 0 } ]
+[0mPOST /boxo/bringInfo [32m200 [0m7.151 ms - 50445[0m
+2
+[0mPOST /auth/login/ [32m200 [0m8.469 ms - 184[0m
+[0mPOST /boxo/logout [32m- [0m- ms - -[0m
+2
+[0mPOST /boxo/logout [32m- [0m- ms - -[0m
+1
+[0mPOST /boxo/logout [32m- [0m- ms - -[0m
